@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom_css.css" />
+  </head>
+  <body>
+    <!-- 
+        Breakpoints          class            Dimensions      container class
+        Extra small           -               < 576px          100%
+        Small                 sm              ≥ 576px          540px      
+        Medium                md              ≥ 768px          720px
+        Large                 lg              ≥ 992px          960px
+        Extra large           lx              ≥ 1200px         1140px
+        Extra ex large        xxl             ≥ 1400px         1320px
+
+        break points..maintain column width until it mentioned class..
+        if size reduce below breakpoint,then width to be 100%
+    -->
+    <div class="row">
+      <div class="col-sm-8 bg-primary">
+        <h2>small</h2>
+      </div>
+      <div class="col-sm-4 bg-warning">
+        <h2>small</h2>
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class="col-md-8 bg-primary">
+        <h2>small</h2>
+      </div>
+      <div class="col-md-4 bg-warning">
+        <h2>small</h2>
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class="col-lg-8 bg-primary">
+        <h2>large</h2>
+      </div>
+      <div class="col-lg-4 bg-warning">
+        <h2>large</h2>
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class="col-xl-8 bg-primary">
+        <h2>ex large</h2>
+      </div>
+      <div class="col-xl-4 bg-warning">
+        <h2>ex large</h2>
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class="col-xxl-8 col-md-4 bg-primary">
+        <h2>ex ex large</h2>
+      </div>
+      <div class="col-xxl-4 col-md-8 bg-warning">
+        <h2>ex ex large</h2>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
