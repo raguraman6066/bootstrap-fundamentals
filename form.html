@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/custom_css.css" />
+  </head>
+  <body>
+    <form action="" class="p-3">
+      <div class="m-3">
+        <label class="form-label" for="">Your Name</label>
+        <input
+          readonly
+          class="form-control"
+          type="text"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="m-3">
+        <label class="form-label" for="">Your Email</label>
+        <input
+          class="form-control form-control-sm"
+          type="email"
+          disabled
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="m-3">
+        <label class="form-label" for="">Your Password</label>
+        <input
+          class="form-control form-control-lg"
+          type="password"
+          placeholder="Enter your password"
+        />
+      </div>
+      <div class="m-3">
+        <button disabled class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+    <form class="p-3">
+      <div class="m-3 form-floating">
+        <label class="form-label" for="yourname">Your Name</label>
+        <input
+          class="form-control"
+          id="yourname"
+          type="text"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="m-3">
+        <label class="form-label" for="">Your Color</label>
+        <input
+          class="form-control form-control-color"
+          type="color"
+          placeholder="Enter your color"
+          value="#0000ff"
+        />
+      </div>
+      <div class="m-3">
+        <label class="form-label" for="">Your File</label>
+        <input class="form-control" type="file" />
+      </div>
+      <div class="m-3">
+        <select name="" id="" class="form-control">
+          <option value="">html</option>
+          <option value="" selected>css</option>
+          <option value="">javascript</option>
+        </select>
+      </div>
+      <!-- checkbox  -->
+      <div class="m-3">
+        <input type="checkbox" />
+        <label for="">html</label>
+      </div>
+      <div class="m-3">
+        <input class="form-check-input" type="checkbox" checked />
+        <label for="">css</label>
+      </div>
+      <!-- radio  -->
+      <div class="m-3">
+        <input type="radio" />
+        <label for="">html</label>
+      </div>
+      <div class="m-3">
+        <input type="radio" checked />
+        <label for="">css</label>
+      </div>
+      <!-- switch  -->
+      <div class="m-3 form-switch">
+        <input class="form-check-input" type="checkbox" />
+        <label for="">html</label>
+      </div>
+      <div class="m-3">
+        <input type="range" class="form-range" min="0" max="5" />
+        <label for="">css</label>
+      </div>
+      <div class="m-3">
+        <label class="form-label" for="">Your Email</label>
+        <input
+          class="form-control"
+          type="email"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="m-3">
+        <label class="form-label" for="">Your Message</label>
+        <textarea
+          class="form-control"
+          placeholder="Enter your password"
+        ></textarea>
+      </div>
+      <div class="m-3">
+        <button class="btn btn-primary">Send Message</button>
+      </div>
+
+      <div class="input-group">
+        <input class="form-control" type="text" placeholder="enter your name" />
+        <button class="btn btn-success">Submit</button>
+      </div>
+    </form>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
